@@ -7,7 +7,7 @@
 <script>
 export default {
     name:"App",
-    // components:{MyButton}
+    
 }
 </script>
 <style lang="">

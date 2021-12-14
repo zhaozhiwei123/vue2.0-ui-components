@@ -1,5 +1,5 @@
 {
-  "name": "vue2.0-ui-components",
+  "name": "vue2.0-ui-components1",
   "version": "1.2.1",
   "description": "ui-components",
   "main": "dist/packages/main.js",
@@ -28,6 +28,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "vue2.0-ui-components":"https://github.com/zhaozhiwei123/vue2.0-ui-components.git"
   }
 }
