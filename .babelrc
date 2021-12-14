@@ -1,0 +1,27 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+
+                "modules": false,
+                //按需加载
+                "useBuiltIns": "usage", // 这里配置usage 会自动根据你使用的方法以及你配置的浏览器支持版本引入对于的方法。
+
+                "targets": {
+                    "chrome": "60",
+                    "firefox": "60",
+                    "ie": "8",
+                    "safari": "10",
+                    "edge": "17"
+                },
+                "corejs": {
+                    "version": 3
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-dynamic-import" //用来解析import
+    ]
+}
